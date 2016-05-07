@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,900")
+@import url("https://fonts.googleapis.com/css?family=Roboto:200,700");
+@import url("https://fonts.googleapis.com/css?family=Alegreya:400,400italic");
 
 input:focus, textarea:focus, button:focus {
     outline: none;
@@ -10,6 +11,7 @@ margin: 0px;
 }
 
 .header-fixed {
+  visibility: hidden;
   background: #fff;
   box-shadow: 0px 2px 10px -6px rgba(0,0,0,0.75);
   position:absolute;
@@ -26,8 +28,7 @@ margin: 0px;
 }
 
 img{
-  position:static;
-padding-top: 100px;
+position:static;
 }
 
 .dtext{
@@ -75,6 +76,59 @@ text-align: center;
 padding: 10px;
 color: rgba(0, 0, 0, 0.75);
 }
+
+.blogtitle{
+color: #333;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+font-family: Roboto,sans-serif;
+letter-spacing: .01rem;
+font-weight: 700;
+font-style: normal;
+font-size: 36px;
+line-height: 1.58;
+letter-spacing: -.003em;
+}
+
+.blogsubtitle{
+margin-top: -4px;
+color: rgba(0, 0, 0, 0.44);
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+font-family: Roboto,sans-serif;
+letter-spacing: .01rem;
+font-weight: 200;
+font-size: 14px;
+letter-spacing: -.003em;
+}
+
+.blogtxt{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+font-family: Alegreya,Georgia,Cambria,"Times New Roman",Times,serif;
+letter-spacing: .01rem;
+font-weight: 400;
+font-style: normal;
+font-size: 21px;
+line-height: 1.58;
+letter-spacing: -.003em;
+}
+
+.blogtxt i{
+  font-style: italic;
+}
+
+.blogcontainer{
+  margin: auto;
+  padding-top: 120px;
+  width: 700px;
+}
+
+.blogcontainer img{
+max-width: 700px;
+padding-top: 32px;
+}
+
 
 a{
   text-decoration:none;
@@ -134,13 +188,14 @@ a{
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
+  outline: none;
 }
 
   .heart
   {
     display: inline;
     font-size: 14px;
-    color: #FF4B57;
+    color: #e74c3c;
   }
 
 .cont{
@@ -151,3 +206,20 @@ a{
 }
 
 /*gyanl*/
+
+@media only screen and (max-width: 768px) {
+
+  .blogcontainer{
+width: 90%;
+}
+.blogcontainer img{
+max-width: 100%;
+transform: scale(1.1,1.1);
+padding-top: 32px;
+padding-bottom: 12px;
+}
+.blogtxt{
+  font-size: 18px;
+}
+
+}

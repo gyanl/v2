@@ -41,7 +41,7 @@ position:static;
 
 .card{
   display: inline-block;
-  border-radius: 12px;
+  border-radius: 6px;
   position: relative;
   margin: 10px;
   width: 300px;
@@ -63,7 +63,7 @@ position:static;
 
 .card img{
   padding-top: 0px;
-border-radius: 12px 12px 0px 0px;
+border-radius: 6px 6px 0px 0px;
 }
 
 .txt{
@@ -121,11 +121,12 @@ letter-spacing: -.003em;
 .blogcontainer{
   margin: auto;
   padding-top: 120px;
-  width: 700px;
+  width: 710px;
 }
 
 .blogcontainer img{
-max-width: 700px;
+max-width: 720px;
+margin-left: -5px;
 padding-top: 32px;
 }
 
@@ -205,6 +206,9 @@ a{
   align-content: space-between;
 }
 
+.scale75{
+  transform: scale(.75,.75);
+}
 /*gyanl*/
 
 @media only screen and (max-width: 768px) {
@@ -216,10 +220,15 @@ width: 90%;
 max-width: 100%;
 transform: scale(1.1,1.1);
 padding-top: 32px;
+margin-left: 0px;
 padding-bottom: 12px;
 }
 .blogtxt{
   font-size: 18px;
+}
+
+.scale75{
+  transform: none;
 }
 
 }

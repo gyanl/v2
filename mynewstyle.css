@@ -39,7 +39,6 @@ padding-top: 100px;
   border-radius: 12px;
   position: relative;
   margin: 40px;
-  margin: auto;
   width: 240px;
   background-color: #fff;
   box-shadow: 0px 2px 10px -6px rgba(0,0,0,0.75);
@@ -129,5 +128,7 @@ a{
 
 .cont{
   display: inline;
+  margin: 20px;
+  padding: 20px;
   align-content: space-between;
 }

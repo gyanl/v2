@@ -1,0 +1,133 @@
+input:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+body{
+background: #F0F0F0;
+margin: 0px;
+}
+
+.header-fixed {
+  background: #fff;
+  box-shadow: 0px 2px 10px -6px rgba(0,0,0,0.75);
+  position:absolute;
+  top:0px;
+  left: 0px;
+  right: 0px;
+  padding: 15px;
+  margin:auto;
+  width:auto;
+  font-family: Roboto;
+  font-weight: 200;
+  font-size: 42px;
+  color: #000;
+}
+
+img{
+  position:static;
+padding-top: 100px;
+}
+
+.dtext{
+  position: relative;
+  font-family: "Roboto";
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.card{
+  border-radius: 12px;
+  position: relative;
+  margin: 40px;
+  margin: auto;
+  width: 240px;
+  background-color: #fff;
+  box-shadow: 0px 2px 10px -6px rgba(0,0,0,0.75);
+}
+
+.card img{
+  padding-top: 0px;
+border-radius: 12px 12px 0px 0px;
+}
+
+.txt{
+width: 220px;
+font-family: "Roboto";
+font-weight: 200;
+font-size: 18px;
+position:relative;
+text-align: center;
+padding: 10px;
+color: rgba(0, 0, 0, 0.75);
+}
+
+a{
+  text-decoration:none;
+}
+
+.footer {
+  font-family: "Roboto";
+  font-weight: 200;
+  background:#333333;
+  width: auto;
+  color: #fff;
+  height:auto;
+  position:relative;
+  bottom:0;
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  left:0px;
+  right:0px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Uses https://github.com/IanLunn/Hover */
+.hvr-grow-shadow {
+
+      background-color: #fff;
+      display: inline;
+      border: none;
+      margin: 4px;
+      border-radius: 32px;
+      color: rgba(0, 0, 0, 0.85);
+      width: 36px;
+      height: 36px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: "Roboto";
+      font-weight: 900;
+
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.hvr-grow-shadow:hover, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+  .heart
+  {
+    display: inline;
+    font-size: 14px;
+    color: #FF4B57;
+  }
+
+.cont{
+  display: inline;
+  align-content: space-between;
+}

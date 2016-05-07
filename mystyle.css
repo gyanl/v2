@@ -40,6 +40,11 @@ vertical-align:middle;
   display: inline;
 }
 
+img{
+  position: relative;
+  top: 50px;
+}
+
 .card{
   border-radius: 12px;
   margin: 20px;
@@ -93,12 +98,6 @@ background-color: rgba(255, 255, 255, 0.25);;
 }
 }
 
-.center{
-  margin-left: 120px;
-  margin-right: 120px;
-  padding: 10px;
-}
-
 
 #sound{
 float:center;
@@ -143,7 +142,7 @@ height:40px;
   width:100%;
   color: #fff;
   height:auto;
-  position:fixed;
+  position:relative;
   bottom:0;
   padding-top: 15px;
   padding-bottom: 15px;

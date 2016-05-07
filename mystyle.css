@@ -5,15 +5,26 @@ input:focus, textarea:focus, button:focus {
 body{
 background: #F0F0F0;
 }
-#txt{
-font-family: Roboto;
+
+.txt{
+  width: inherit;
+font-family: "Roboto";
 font-weight: 200;
 font-size:18px;
-
 position:relative;
 text-align: center;
-padding-top: 10px;
-padding-bottom: 10px;
+padding: 10px;
+color: rgba(0, 0, 0, 0.75);
+}
+
+.txt{
+width: inherit;
+font-family: "Roboto";
+font-weight: 200;
+font-size: 18px;
+position:relative;
+text-align: center;
+padding: 10px;
 color: rgba(0, 0, 0, 0.75);
 }
 
@@ -22,7 +33,7 @@ p{
 }
 
 .pic2x{
-    padding-bottom: -50%;
+vertical-align:middle;
 }
 
 .tocky{
@@ -30,14 +41,12 @@ p{
 }
 
 .card{
-  display:inline;
-  padding-bottom: 60px;
   border-radius: 12px;
   margin: 20px;
-  min-width: 240px;
-  position: relative;
-  background-color: #fff;
+width: 240px;
+ background-color: #fff;
   transition: box-shadow .25s;
+  box-shadow: 0px 2px 10px -6px rgba(0,0,0,0.75);
 }
 
 .card img{
@@ -90,13 +99,6 @@ background-color: rgba(255, 255, 255, 0.25);;
   padding: 10px;
 }
 
-.vcenter{
-  margin: auto;
-  position: relative;
-  height: auto;
-  width: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
-}
 
 #sound{
 float:center;
@@ -172,7 +174,8 @@ height:40px;
       font-size: 16px;
     }
     .pic2x{
-      transform: scale(.25,.25);
+      transform: scale(.5,.5);
+      padding-bottom: -10px;
     }
     .card{
    }
@@ -210,10 +213,10 @@ height:40px;
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
 }
-.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+.hvr-grow-shadow:hover, .hvr-grow-shadow:active {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .heart

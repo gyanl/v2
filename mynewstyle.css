@@ -36,7 +36,7 @@ margin: 0px;
 }
 
 .spaced{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 img{
@@ -159,7 +159,7 @@ padding-top: 32px;
   width: auto;
   color: #fff;
   height:auto;
-  position:relative;
+  position:static;
   bottom:0;
   margin: 0px;
   padding-top: 15px;
@@ -264,6 +264,8 @@ margin-bottom: 80px;
 
 .footer{
   font-size: 16px;
+  position:relative;
+
 }
 
   .blogcontainer{
@@ -297,5 +299,4 @@ hr{
 margin: 30px;
 margin-top: 36px;
 }
-
 }

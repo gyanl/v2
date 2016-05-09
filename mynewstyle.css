@@ -198,7 +198,7 @@ padding-top: 32px;
 }
 
 .hvr-grow-shadow:hover, .hvr-grow-shadow:active {
-  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 34px -4px rgba(0, 0, 0, 0.5);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   outline: none;
@@ -266,7 +266,7 @@ width: 90%;
 }
 .blogcontainer img{
 max-width: 100%;
-transform: scale(1.15,1.15);
+transform: scale(1.125,1.125);
 padding-top: 32px;
 margin-left: 0px;
 padding-bottom: 12px;

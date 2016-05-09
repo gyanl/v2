@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
-@import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Neuton:400,400italic);
 
 input:focus, textarea:focus, button:focus {
     outline: none;
@@ -118,7 +118,7 @@ letter-spacing: -.003em;
 .blogtxt{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-font-family: Alegreya,Georgia,Cambria,"Times New Roman",Times,serif;
+font-family: Neuton,Georgia,Cambria,"Times New Roman",Times,serif;
 letter-spacing: .01rem;
 font-weight: 400;
 font-style: normal;

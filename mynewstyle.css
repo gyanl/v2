@@ -24,7 +24,7 @@ margin: 0px;
   padding: 15px;
   margin:auto;
   width:auto;
-  font-family: Roboto;
+  font-family: Roboto,Helvetica,sans-serif;
   font-weight: 200;
   font-size: 18px;
   color: #fff;
@@ -41,7 +41,7 @@ position:static;
 
 .dtext{
   position: relative;
-  font-family: "Roboto";
+  font-family: Roboto,Helvetica,sans-serif;
   font-weight: 200;
   font-size: 18px;
   margin: 32px;
@@ -76,7 +76,7 @@ border-radius: 6px 6px 0px 0px;
 
 .txt{
 width: 220px;
-font-family: "Roboto";
+font-family: Roboto,Helvetica,sans-serif;
 font-weight: 200;
 font-size: 18px;
 position:relative;
@@ -89,21 +89,21 @@ color: rgba(0, 0, 0, 0.75);
 color: #333;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
-font-family: Roboto,sans-serif;
+font-family: Roboto,Helvetica,sans-serif;
 letter-spacing: .01rem;
 font-weight: 700;
 font-style: normal;
 font-size: 36px;
-line-height: 1.58;
+line-height: 1.2;
 letter-spacing: -.003em;
 }
 
 .blogsubtitle{
-margin-top: -4px;
+margin-top: 4px;
 color: rgba(0, 0, 0, 0.44);
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
-font-family: Roboto,sans-serif;
+font-family: Roboto,Helvetica,sans-serif;
 letter-spacing: .01rem;
 font-weight: 200;
 font-size: 14px;
@@ -148,7 +148,7 @@ padding-top: 32px;
   }
 
 .footer {
-  font-family: "Roboto";
+  font-family: Roboto,Helvetica,sans-serif;
   font-weight: 200;
   background:#333333;
   width: auto;
@@ -180,7 +180,7 @@ padding-top: 32px;
       text-align: center;
       text-decoration: none;
       font-size: 20px;
-      font-family: "Roboto";
+      font-family: Roboto,Helvetica,sans-serif;
       font-weight: 900;
 
     display: inline-block;
@@ -238,7 +238,7 @@ padding-top: 32px;
   color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Roboto";
+  font-family: Roboto,Helvetica,sans-serif;
   letter-spacing: .01rem;
   font-weight: 200;
   font-style: normal;

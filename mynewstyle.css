@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:200);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
 @import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic);
 
 input:focus, textarea:focus, button:focus {
@@ -25,7 +25,7 @@ margin: 0px;
   margin:auto;
   width:auto;
   font-family: Roboto;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 18px;
   color: #fff;
 }
@@ -35,6 +35,10 @@ margin: 0px;
   margin: auto;
 }
 
+.spaced{
+  margin-top: 100px;
+}
+
 img{
 position:static;
 }
@@ -42,7 +46,7 @@ position:static;
 .dtext{
   position: relative;
   font-family: "Roboto";
-  font-weight: 200;
+  font-weight: 300;
   font-size: 18px;
   margin: 32px;
 }
@@ -77,11 +81,12 @@ border-radius: 6px 6px 0px 0px;
 .txt{
 width: 220px;
 font-family: "Roboto";
-font-weight: 200;
+font-weight: 300;
 font-size: 18px;
 position:relative;
 text-align: center;
-padding: 10px;
+padding: 4px;
+margin-bottom: 6px;
 color: rgba(0, 0, 0, 0.75);
 }
 
@@ -94,18 +99,18 @@ letter-spacing: .01rem;
 font-weight: 700;
 font-style: normal;
 font-size: 36px;
-line-height: 1.58;
+line-height: 1.2;
 letter-spacing: -.003em;
 }
 
 .blogsubtitle{
-margin-top: -4px;
+margin-top: 4px;
 color: rgba(0, 0, 0, 0.44);
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 font-family: Roboto,sans-serif;
 letter-spacing: .01rem;
-font-weight: 200;
+font-weight: 300;
 font-size: 14px;
 letter-spacing: -.003em;
 }
@@ -149,7 +154,7 @@ padding-top: 32px;
 
 .footer {
   font-family: "Roboto";
-  font-weight: 200;
+  font-weight: 300;
   background:#333333;
   width: auto;
   color: #fff;
@@ -234,15 +239,15 @@ padding-top: 32px;
 .UItext{
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: -10px;
+  padding-bottom: 10px;
   color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Roboto";
   letter-spacing: .01rem;
-  font-weight: 200;
+  font-weight: 300;
   font-style: normal;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 1.58;
   letter-spacing: -.003em;
 }

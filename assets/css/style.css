@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,800);
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic);
 input:focus, textarea:focus, button:focus {
   outline: none; }
@@ -31,6 +31,13 @@ body {
 
 .spaced {
   margin-top: 90px; }
+
+.Gyan {
+  margin-left: 132px;
+  margin-top: 36px;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 800; }
 
 img {
   position: static; }
@@ -103,13 +110,11 @@ img {
 .blogtxt {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "PT Serif",Georgia,Cambria,"Times New Roman",Times,serif;
-  letter-spacing: .01rem;
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+  letter-spacing: -0.01em;
   font-weight: 400;
-  font-style: normal;
   font-size: 20px;
-  line-height: 1.58;
-  letter-spacing: -.003em; }
+  line-height: 1.5; }
 
 .blogtxt i {
   font-style: italic; }
@@ -231,6 +236,10 @@ hr {
   .footer {
     font-size: 16px;
     position: relative; }
+  .Gyan {
+    margin-left: auto;
+    width: auto;
+    margin: auto; }
   .blogcontainer {
     width: 90%; }
   .blogcontainer img {

@@ -55,6 +55,10 @@ border-color: #3C2EFC;
 color: #fff;
 }
 
+.lbox-a a{
+  color: #fff;
+}
+
 .cbox-a{
   font-family: Roboto;
   font-weight: 500;
@@ -72,6 +76,10 @@ border-width: 2px 0px 2px 0px;
 border-style: solid;
 border-color: #3C2EFC;
 color: #3C2EFC;
+}
+
+.cbox-a a{
+  color: #fff;
 }
 
 .rbox-a{
@@ -92,6 +100,10 @@ border-color: #3C2EFC;
 color: #3C2EFC;
 }
 
+.rbox-a a{
+  color: #fff;
+}
+
 .lbox-i{
     font-family: Roboto;
   font-weight: 500;
@@ -109,6 +121,18 @@ border-width: 2px;
 border-style: solid;
 border-color: #3C2EFC;
 color: #3C2EFC;
+}
+
+.rbox-i a{
+  color: #3C2EFC;
+}
+
+.cbox-i a{
+  color: #3C2EFC;
+}
+
+.lbox-i a{
+  color: #3C2EFC;
 }
 
 .cbox-i{

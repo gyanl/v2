@@ -1,123 +1,158 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,600);
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,800);
+
+$color-active-d: #f44747;
+$color-secondary-d: #fff;
+
+$color-active-m: #4500FF;
+
+
+$font-stack1: "Roboto", "Helvetica", sans-serif;
+$font-stack2: "Poppins", "Helvetica", sans-serif;
+
 input:focus,
 textarea:focus,
 button:focus {
   outline: none; }
 
-a {
+a{
   text-decoration: none; }
 
-.shiftdn {
-  margin-bottom: 8px; }
 
-.cardo-b {
+.shiftdn{
+  margin-bottom: 8px;
+}
+
+.cardo-b{
   margin-top: 16px;
   padding: 4px;
   width: 90vw;
-  height: 160px; }
+  height: 160px;
+}
 
-.navcont {
+.navcont{
   font-weight: 500;
   font-size: 16px;
   line-height: 32px;
-  font-family: "Roboto", "Helvetica", sans-serif;
-  padding-top: 0px;
-  padding-bottom: 6px;
-  width: 450px;
-  margin: auto;
-  display: flex; }
+font-family: $font-stack1;
+padding-top: 0px;
+padding-bottom: 6px;
+width: 450px;
+margin: auto;
+display: flex;
+}
 
-.lbox-a {
-  line-height: 32px;
+.lbox-a{
+    line-height: 32px;
   padding: 2px;
+
   height: 32px;
   text-align: center;
   vertical-align: middle;
-  width: 30vw;
-  background: #f44747;
-  border-radius: 5px 0px 0px 5px;
-  border: 2px solid;
-  border-color: #f44747;
-  color: #fff; }
+width: 30vw;
+background: $color-active-d;
+border-radius: 5px 0px 0px 5px;
+border: 2px solid;
+border-color: $color-active-d;
+color: #fff;
+}
 
-.lbox-a a {
-  color: #fff; }
+.lbox-a a{
+  color: #fff;
+}
 
-.cbox-a {
+.cbox-a{
   padding: 2px;
+
   height: 32px;
   text-align: center;
   vertical-align: middle;
-  width: 30vw;
-  background: #f44747;
-  border-radius: 0px;
-  border-width: 2px 0px 2px 0px;
-  border-style: solid;
-  border-color: #f44747;
-  color: #f44747; }
+width: 30vw;
+background: $color-active-d;
+border-radius: 0px;
+border-width: 2px 0px 2px 0px;
+border-style: solid;
+border-color: $color-active-d;
+color: $color-active-d;
+}
 
-.cbox-a a {
-  color: #fff; }
+.cbox-a a{
+  color: #fff;
+}
 
-.rbox-a {
+.rbox-a{
   padding: 2px;
+
   height: 32px;
   text-align: center;
   vertical-align: middle;
-  width: 30vw;
-  background: #f44747;
-  border-radius: 0px 5px 5px 0px;
-  border: 2px solid;
-  border-color: #f44747;
-  color: #f44747; }
+width: 30vw;
+background: $color-active-d;
+border-radius: 0px 5px 5px 0px;
+border: 2px solid;
+border-color: $color-active-d;
+color: $color-active-d;
+}
 
-.rbox-a a {
-  color: #fff; }
+.rbox-a a{
+  color: #fff;
+}
 
-.lbox-i {
-  height: 32px;
+.lbox-i{
+    height: 32px;
   padding: 2px;
+
   text-align: center;
-  width: 30vw;
-  background: #FFF;
-  border-radius: 5px 0px 0px 5px;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #f44747;
-  color: #f44747; }
 
-.rbox-i a {
-  color: #f44747; }
+width: 30vw;
+background: #FFF;
+border-radius: 5px 0px 0px 5px;
+border-width: 2px;
+border-style: solid;
+border-color: $color-active-d;
+color: $color-active-d;
+}
 
-.cbox-i a {
-  color: #f44747; }
+.rbox-i a{
+  color: $color-active-d;
+}
 
-.lbox-i a {
-  color: #f44747; }
+.cbox-i a{
+  color: $color-active-d;
+}
 
-.cbox-i {
-  height: 32px;
+.lbox-i a{
+  color: $color-active-d;
+}
+
+.cbox-i{
+    height: 32px;
   padding: 2px;
-  text-align: center;
-  width: 30vw;
-  background: #FFF;
-  border-radius: 0px;
-  border-width: 2px 0px 2px 0px;
-  border-style: solid;
-  border-color: #f44747;
-  color: #f44747; }
 
-.rbox-i {
-  height: 32px;
-  padding: 2px;
   text-align: center;
-  width: 30vw;
-  background: #fff;
-  border-radius: 0px 5px 5px 0px;
-  border: 2px solid;
-  border-color: #f44747;
-  color: #f44747; }
+
+width: 30vw;
+background: #FFF;
+border-radius: 0px;
+border-width: 2px 0px 2px 0px;
+border-style: solid;
+border-color: $color-active-d;
+color: $color-active-d;
+}
+
+.rbox-i{
+    height: 32px;
+  padding: 2px;
+
+  text-align: center;
+
+width: 30vw;
+background: #fff;
+border-radius: 0px 5px 5px 0px;
+border: 2px solid;
+border-color: $color-active-d;
+color: $color-active-d;
+}
 
 .butt {
   color: #000;
@@ -207,7 +242,7 @@ a {
   font-family: 'Poppins';
   font-weight: 600;
   font-size: 32px;
-  color: #f44747;
+  color: $color-active-d;
   padding-top: 3px;
   padding-bottom: 1px;
   -webkit-transition-duration: 0.4s;
@@ -225,16 +260,17 @@ body {
   background-image: url("/assets/img/desktop-footer.png");
   background-position: bottom;
   background-color: #fafafa;
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
   background-size: 100vw auto;
-  margin: 0px; }
+  margin: 0px;
+}
 
 .header-home2 {
   z-index: 100;
   position: fixed;
   top: 0px;
   box-shadow: 0px 10px 34px 0px rgba(0, 0, 0, 0.1);
-  background: #fff;
+  background: $color-secondary-d;
   left: 0px;
   right: 0px;
   padding: 15px;
@@ -266,7 +302,7 @@ body {
 
 .header-fixed p {
   color: #fff;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: $font-stack1;
   width: 710px;
   margin: auto; }
 
@@ -304,14 +340,14 @@ body {
 .Gyan {
   margin-left: 132px;
   margin-top: 36px;
-  font-family: "Roboto", "Helvetica", sans-serif;
+   font-family: $font-stack1;
   font-size: 40px;
   font-weight: 800; }
 
 .card {
-  -webkit-box-shadow: 0px 10px 43px -14px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0px 10px 43px -14px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 10px 43px -14px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 10px 43px -14px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 10px 43px -14px rgba(0,0,0,0.25);
+  box-shadow: 0px 10px 43px -14px rgba(0,0,0,0.25);
   background-color: #fff;
   border-radius: 5px;
   width: 320px;
@@ -346,7 +382,7 @@ body {
 
 .txt {
   width: 220px;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: $font-stack1;
   font-weight: 300;
   font-size: 18px;
   position: relative;
@@ -356,19 +392,20 @@ body {
   color: rgba(0, 0, 0, 0.75); }
 
 .blogtitle {
-  font-family: "Poppins", "Helvetica", sans-serif;
+  font-family: $font-stack2;
   padding-top: 120px;
   margin: auto;
   width: 710px;
   color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Roboto", "Helvetica", sans-serif;
+   font-family: $font-stack1;
   letter-spacing: -.1rem;
   font-weight: 700;
   font-style: normal;
   font-size: 36px;
-  line-height: 1.2; }
+  line-height: 1.2;
+   }
 
 .blogtitle2 {
   padding-top: 48px;
@@ -377,12 +414,13 @@ body {
   color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Poppins", "Helvetica", sans-serif;
+  font-family: $font-stack2;
   letter-spacing: -.08rem;
   font-weight: 700;
   font-style: normal;
   font-size: 32px;
-  line-height: 1.2; }
+  line-height: 1.2;
+ }
 
 .blogsubtitle {
   margin: auto;
@@ -391,7 +429,7 @@ body {
   color: rgba(0, 0, 0, 0.44);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: $font-stack1;
   letter-spacing: .01rem;
   font-weight: 300;
   font-size: 14px;
@@ -419,7 +457,7 @@ body {
 .blogtxt .imgdesc {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: $font-stack1;
   letter-spacing: -0.01em;
   font-weight: 400;
   text-align: center;
@@ -438,8 +476,8 @@ body {
   text-shadow: -0.04167em -0.04167em 0 #F0F0F0, -0.04167em -0.02083em 0 #F0F0F0, -0.04167em 0em 0 #F0F0F0, -0.04167em 0.02083em 0 #F0F0F0, -0.04167em 0.04167em 0 #F0F0F0, -0.02083em -0.04167em 0 #F0F0F0, -0.02083em -0.02083em 0 #F0F0F0, -0.02083em 0em 0 #F0F0F0, -0.02083em 0.02083em 0 #F0F0F0, -0.02083em 0.04167em 0 #F0F0F0, 0em -0.04167em 0 #F0F0F0, 0em -0.02083em 0 #F0F0F0, 0em 0em 0 #F0F0F0, 0em 0.02083em 0 #F0F0F0, 0em 0.04167em 0 #F0F0F0, 0.02083em -0.04167em 0 #F0F0F0, 0.02083em -0.02083em 0 #F0F0F0, 0.02083em 0em 0 #F0F0F0, 0.02083em 0.02083em 0 #F0F0F0, 0.02083em 0.04167em 0 #F0F0F0, 0.04167em -0.04167em 0 #F0F0F0, 0.04167em -0.02083em 0 #F0F0F0, 0.04167em 0em 0 #F0F0F0, 0.04167em 0.02083em 0 #F0F0F0, 0.04167em 0.04167em 0 #F0F0F0; }
 
 .footer {
-  background-image: linear-gradient(-180deg, transparent 0%, rgba(0, 0, 0, 0.25) 100%);
-  font-family: "Roboto", "Helvetica", sans-serif;
+  background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, rgba(0,0,0,0.25) 100%);
+  font-family: $font-stack1;
   font-weight: 300;
   width: auto;
   color: #fff;
@@ -458,7 +496,8 @@ body {
 
 /* Uses https://github.com/IanLunn/Hover */
 .hvr-grow-shadow {
-  background-color: #f44747;
+
+  background-color: $color-active-d;
   display: inline;
   border: none;
   margin: 4px;
@@ -469,7 +508,7 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 20px;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: $font-stack1;
   font-weight: 900;
   display: inline-block;
   vertical-align: middle;
@@ -497,7 +536,7 @@ body {
 .heart {
   display: inline;
   font-size: 14px;
-  color: #f44747; }
+  color: $color-active-d; }
 
 .cont {
   display: inline;
@@ -534,22 +573,46 @@ hr {
   margin-top: 80px;
   margin-bottom: 80px; }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MOBILE RULES */
 @media only screen and (max-width: 768px) {
-  body {
-    background-image: url("../../assets/img/backgyan.jpg");
-    background-position: bottom;
-    background-color: #fafafa;
-    background-repeat: no-repeat;
-    background-size: 100vw auto;
-    margin: 0px; }
-  .hvr-grow-shadow {
-    color: #f44747;
-    background-color: #fff; }
-  .zero {
-    color: #4500FF; }
+  body{
+  background-image: url("../../assets/img/backgyan.jpg");
+  background-position: bottom;
+  background-color: #fafafa;
+  background-repeat:no-repeat;
+  background-size: 100vw auto;
+  margin: 0px;
+  }
+
+.hvr-grow-shadow {
+  color: $color-active-d;
+  background-color: #fff;
+}
+
+.zero{
+  color: $color-active-m;
+}
+
   .footer {
-    background-image: linear-gradient(-180deg, transparent 0%, #000000 100%);
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, #000000 100%);
     font-size: 16px;
     position: relative; }
   .Gyan {
@@ -614,49 +677,85 @@ hr {
     padding: 0 22px; }
   .zero {
     -webkit-transition-duration: 0.25s;
-    transition-duration: 0.25s; }
-  .card {
-    width: 90vw;
-    margin: auto;
-    margin-top: 16px; }
-  .card img {
-    width: 90vw; }
-  .navcont {
-    width: 90vw; }
-  .lbox-a {
-    background: #4500FF;
-    border-color: #4500FF; }
-  .lbox-a a {
-    color: #fff; }
-  .cbox-a {
-    background: #4500FF;
-    border-color: #4500FF; }
-  .cbox-a a {
-    color: #fff; }
-  .rbox-a {
-    background: #4500FF;
-    border-color: #4500FF; }
-  .rbox-a a {
-    color: #fff; }
-  .lbox-i {
-    color: #4500FF;
-    border-color: #4500FF; }
-  .cbox-i {
-    color: #4500FF;
-    border-color: #4500FF; }
-  .rbox-i {
-    color: #4500FF;
-    border-color: #4500FF; }
-  .lbox-i a {
-    color: #4500FF; }
-  .cbox-i a {
-    color: #4500FF; }
-  .rbox-i a {
-    color: #4500FF; }
-  .hvr-grow-shadow {
-    color: #4500FF; } }
+    transition-duration: 0.25s;
+    }
+  .card{
+width: 90vw;
+margin: auto;
+margin-top: 16px;
+  }
+
+.card img{
+  width: 90vw;
+}
+.navcont{
+width: 90vw;
+}
+
+.lbox-a{
+  background: $color-active-m;
+  border-color: $color-active-m;
+}
+
+.lbox-a a{
+  color: #fff;
+}
+
+.cbox-a{
+  background: $color-active-m;
+  border-color: $color-active-m;
+}
+
+.cbox-a a{
+  color: #fff;
+}
+
+.rbox-a{
+  background: $color-active-m;
+  border-color: $color-active-m;
+}
+
+.rbox-a a{
+  color: #fff;
+}
+
+.lbox-i{
+  color: $color-active-m;
+  border-color: $color-active-m;
+}
+
+.cbox-i{
+  color: $color-active-m;
+  border-color: $color-active-m;
+}
+
+.rbox-i{
+  color: $color-active-m;
+  border-color: $color-active-m;
+}
+
+.lbox-i a{
+  color: $color-active-m;
+}
+
+.cbox-i a{
+  color: $color-active-m;
+}
+
+.rbox-i a{
+  color: $color-active-m;
+}
+.hvr-grow-shadow {
+color: $color-active-m;
+}
+
+}
 
 /*iPhone 5 size*/
 @media only screen and (max-width: 320px) {
-  .navcont {
-    font-size: 12px; } }
+
+  .navcont{
+    font-size: 12px;
+}
+
+}

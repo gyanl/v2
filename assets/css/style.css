@@ -9,30 +9,21 @@ a {
   text-decoration: none; }
 
 
-.cardo{
-  -webkit-box-shadow: 0px 10px 43px -14px rgba(0,0,0,0.25);
--moz-box-shadow: 0px 10px 43px -14px rgba(0,0,0,0.25);
-box-shadow: 0px 10px 43px -14px rgba(0,0,0,0.25);
-  background-color: #fff;
-  border-radius: 5px;
-  width: 90vw;
-  margin: auto;
-    margin-top: 16px;
-  height: 160px;
+.shiftdn{
+  margin-bottom: 8px;
 }
 
 .cardo-b{
-  border-radius: 5px;
   margin-top: 16px;
   padding: 4px;
   width: 90vw;
-  margin: auto;
   height: 160px;
 }
 
 .navcont{
-padding-top: 20px;
-width: 90vw;
+padding-top: 0px;
+padding-bottom: 6px;
+width: 450px;
 margin: auto;
 display: flex;
 }
@@ -260,7 +251,7 @@ color: #3C2EFC;
   font-family: 'Poppins';
   font-weight: 600;
   font-size: 32px;
-  color: #000;
+  color: #3C2EFC;
   padding-top: 3px;
   padding-bottom: 1px;
   -webkit-transition-duration: 0.4s;
@@ -275,9 +266,9 @@ color: #3C2EFC;
   color: #FF6E0F; }
 
 body {
-  background-image: url("../../assets/img/backgyan.jpg");
+  background-image: url("/assets/img/desktop-footer.png");
   background-position: bottom;
-  background-color: #fcfcfc;
+  background-color: #fafafa;
   background-repeat:no-repeat;
   background-size: 100vw auto;
   margin: 0px; 
@@ -363,13 +354,19 @@ body {
   font-weight: 800; }
 
 .card {
-  border-radius: 9px;
-  background: #fff;
+  -webkit-box-shadow: 0px 10px 43px -14px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 10px 43px -14px rgba(0,0,0,0.25);
+  box-shadow: 0px 10px 43px -14px rgba(0,0,0,0.25);
+  background-color: #fff;
+  border-radius: 5px;
+  width: 320px;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  margin-right: 8px;
+  height: auto;
   display: inline-block;
   position: relative;
-  margin: 10px;
-  width: 320px;
-  box-shadow: 0px 2px 10px -3px rgba(0, 0, 0, 0.75);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: box-shadow, transform;
@@ -387,8 +384,10 @@ body {
   transform: scale(1.05); }
 
 .card img {
+  width: 320px;
+  height: auto;
   padding-top: 0px;
-  border-radius: 8px 8px 0px 0px; }
+  border-radius: 5px 5px 0px 0px; }
 
 .txt {
   width: 220px;
@@ -487,7 +486,6 @@ body {
 .footer {
   font-family: Roboto, Helvetica, sans-serif;
   font-weight: 300;
-  background: #333333;
   width: auto;
   color: #fff;
   height: auto;
@@ -496,6 +494,7 @@ body {
   margin: 0px;
   padding-top: 15px;
   padding-bottom: 15px;
+  letter-spacing: 0;
   left: 0px;
   right: 0px;
   text-align: center;
@@ -504,12 +503,13 @@ body {
 
 /* Uses https://github.com/IanLunn/Hover */
 .hvr-grow-shadow {
-  background-color: #fff;
+
+  background-color: #B53A3A;
   display: inline;
   border: none;
   margin: 4px;
   border-radius: 32px;
-  color: rgba(0, 0, 0, 0.85);
+  color: #fff;
   width: 36px;
   height: 36px;
   text-align: center;
@@ -535,7 +535,7 @@ body {
 
 .hvr-grow-shadow:hover,
 .hvr-grow-shadow:active {
-  box-shadow: 0px 3px 34px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 34px -4px rgba(60, 46, 252, 0.5);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   outline: none; }
@@ -543,7 +543,7 @@ body {
 .heart {
   display: inline;
   font-size: 14px;
-  color: #e74c3c; }
+  color: #B53A3A; }
 
 .cont {
   display: inline;
@@ -580,10 +580,43 @@ hr {
   margin-top: 80px;
   margin-bottom: 80px; }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MOBILE RULES */
 @media only screen and (max-width: 768px) {
+  body{
+  background-image: url("../../assets/img/backgyan.jpg");
+  background-position: bottom;
+  background-color: #fafafa;
+  background-repeat:no-repeat;
+  background-size: 100vw auto;
+  margin: 0px; 
+  }
+
+.hvr-grow-shadow {
+  color: #3C2EFC;
+  background-color: #fff;
+}
+
   .footer {
-    font-size: 14px;
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 0%, #000000 100%);
+    font-size: 16px;
     position: relative; }
   .Gyan {
     margin-left: auto;
@@ -647,4 +680,19 @@ hr {
     padding: 0 22px; }
   .zero {
     -webkit-transition-duration: 0.25s;
-    transition-duration: 0.25s; } }
+    transition-duration: 0.25s; 
+    } 
+  .card{
+width: 90vw;
+margin: auto;
+margin-top: 16px;
+  }
+
+.card img{
+  width: 90vw;
+}
+.navcont{
+width: 90vw;
+}
+
+}

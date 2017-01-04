@@ -1,19 +1,96 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins:400,600);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,800);
 
-$color-active-d: #f44747;
+$color-active-d: #333333;
 $color-secondary-d: #fff;
+//$color-footer-accent-d: #FF5D5E;
+$color-footer-accent-d: rgba(255,255,255,.25);
 
-$color-active-m: #4500FF;
+$color-active-m: #000;
 
 
 $font-stack1: "Roboto", "Helvetica", sans-serif;
-$font-stack2: "Poppins", "Helvetica", sans-serif;
+$font-stack2: "Playfair Display", "Georgia", serif;
+$color-iot: #FF273E;
+$color-pmo: #5929B3;
+$color-iot-grad-bg: linear-gradient(0deg, #FF273E 0%, #FF7957 24%, #FFFFFF 34%);
+$color-iot-grad: linear-gradient(0deg, #FF273E 0%, #FF7957 100%);
+
+.pmo .projecttag{
+  background-color: $color-pmo;
+}
+
+.pmo .readmore{
+  background-image: url(../../assets/img/grad/pmo.png);
+}
+
+.ioteractions{
+width: 90vw;
+background-size: 90vw auto;
+background-image: url(../../assets/img/mask.svg);
+background-repeat: no-repeat;
+background-position: top;
+}
+
+.projectname{
+padding-top: 16px;
+font-family: "Playfair Display";
+font-weight: 400;
+font-size: 36px;
+color: #000000;
+letter-spacing: 0;
+}
+
+.tags{
+  padding: 22px 10px 0px 10px;
+  margin: auto;
+  display: inline-block;;
+}
+
+.projecttag{
+  margin-left: 4px;
+  margin-right: 4px;
+  display: inline;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 8px 14px 6px 14px;
+  border-radius: 16px;
+  font-family: $font-stack1;
+  color: #fff;
+  width: auto;
+}
+
+.projectdesc{
+text-align: left;
+padding: 20px 30px 0px 30px;
+opacity: 0.8;
+font-family: Georgia;
+font-size: 16px;
+color: #000000;
+line-height: 28px;
+}
+
+.readmore{
+  z-index: 10;
+  background-size: 360px 60px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+padding-bottom: 20px;
+text-align: right;
+padding-right: 28px;
+padding-top: 36px;
+font-family: $font-stack1;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0;
+border-radius: 0px 0px 16px 16px;
+}
 
 input:focus,
 textarea:focus,
 button:focus {
   outline: none; }
+
 
 a{
   text-decoration: none; }
@@ -26,7 +103,7 @@ a{
 .cardo-b{
   margin-top: 16px;
   padding: 4px;
-  width: 90vw;
+  width: 96vw;
   height: 160px;
 }
 
@@ -43,18 +120,17 @@ display: flex;
 }
 
 .lbox-a{
-    line-height: 32px;
+  line-height: 32px;
   padding: 2px;
-
   height: 32px;
   text-align: center;
   vertical-align: middle;
-width: 30vw;
-background: $color-active-d;
-border-radius: 5px 0px 0px 5px;
-border: 2px solid;
-border-color: $color-active-d;
-color: #fff;
+  width: 32vw;
+  background: $color-active-d;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid;
+  border-color: $color-active-d;
+  color: #fff;
 }
 
 .lbox-a a{
@@ -63,17 +139,16 @@ color: #fff;
 
 .cbox-a{
   padding: 2px;
-
   height: 32px;
   text-align: center;
   vertical-align: middle;
-width: 30vw;
-background: $color-active-d;
-border-radius: 0px;
-border-width: 2px 0px 2px 0px;
-border-style: solid;
-border-color: $color-active-d;
-color: $color-active-d;
+  width: 32vw;
+  background: $color-active-d;
+  border-radius: 0px;
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: $color-active-d;
+  color: $color-active-d;
 }
 
 .cbox-a a{
@@ -86,10 +161,10 @@ color: $color-active-d;
   height: 32px;
   text-align: center;
   vertical-align: middle;
-width: 30vw;
+width: 32vw;
 background: $color-active-d;
 border-radius: 0px 5px 5px 0px;
-border: 2px solid;
+border: 1px solid;
 border-color: $color-active-d;
 color: $color-active-d;
 }
@@ -104,10 +179,10 @@ color: $color-active-d;
 
   text-align: center;
 
-width: 30vw;
+width: 32vw;
 background: #FFF;
 border-radius: 5px 0px 0px 5px;
-border-width: 2px;
+border-width: 1px;
 border-style: solid;
 border-color: $color-active-d;
 color: $color-active-d;
@@ -131,10 +206,10 @@ color: $color-active-d;
 
   text-align: center;
 
-width: 30vw;
+width: 32vw;
 background: #FFF;
 border-radius: 0px;
-border-width: 2px 0px 2px 0px;
+border-width: 1px 0px 1px 0px;
 border-style: solid;
 border-color: $color-active-d;
 color: $color-active-d;
@@ -146,10 +221,10 @@ color: $color-active-d;
 
   text-align: center;
 
-width: 30vw;
+width: 32vw;
 background: #fff;
 border-radius: 0px 5px 5px 0px;
-border: 2px solid;
+border: 1px solid;
 border-color: $color-active-d;
 color: $color-active-d;
 }
@@ -218,7 +293,7 @@ color: $color-active-d;
 .dtext {
   position: relative;
   color: #fff;
-  font-family: 'Poppins';
+  font-family: $font-stack2;
   font-weight: 600;
   font-size: 18px;
   padding-top: 0px;
@@ -239,19 +314,19 @@ color: $color-active-d;
   background-image: linear-gradient(#4F173C 0%, #210B19 100%); }
 
 .zero {
-  font-family: 'Poppins';
-  font-weight: 600;
+  padding-top: 4px;
+  padding-bottom: 16px;
+  font-family: $font-stack2;
+  font-weight: 500;
   font-size: 32px;
   color: $color-active-d;
-  padding-top: 3px;
-  padding-bottom: 1px;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: font-size;
   transition-property: font-size; }
 
 .subzero {
-  font-family: 'Poppins';
+  font-family: $font-stack2;
   font-weight: 600;
   font-size: 16px;
   color: #FF6E0F; }
@@ -266,8 +341,8 @@ body {
 }
 
 .header-home2 {
+  font-weight: 900;
   z-index: 100;
-  position: fixed;
   top: 0px;
   box-shadow: 0px 10px 34px 0px rgba(0, 0, 0, 0.1);
   background: $color-secondary-d;
@@ -303,6 +378,7 @@ body {
 .header-fixed p {
   color: #fff;
   font-family: $font-stack1;
+  font-weight: 900;
   width: 710px;
   margin: auto; }
 
@@ -327,6 +403,7 @@ body {
   background-size: 100% 2px; }
 
 .blogcontainer {
+  font-family: $font-stack2;
   width: 100%;
   background: #fff;
   margin: auto; }
@@ -349,8 +426,8 @@ body {
   -moz-box-shadow: 0px 10px 43px -14px rgba(0,0,0,0.25);
   box-shadow: 0px 10px 43px -14px rgba(0,0,0,0.25);
   background-color: #fff;
-  border-radius: 5px;
-  width: 320px;
+  border-radius: 15px;
+  width: 360px;
   margin-top: 16px;
   margin-bottom: 0px;
   margin-left: 8px;
@@ -366,7 +443,9 @@ body {
   transition-property: box-shadow, transform;
   transition-property: box-shadow, transform, -webkit-transform;
   -webkit-transform: translateZ(0);
-  transform: translateZ(0); }
+  transform: translateZ(0);
+  background: #fff;
+}
 
 .card:hover,
 .card:active {
@@ -374,12 +453,12 @@ body {
   -webkit-transform: scale(1.05);
   transform: scale(1.05); }
 
-.card img {
+/*.card img {
   width: 320px;
   height: auto;
   padding-top: 0px;
   border-radius: 5px 5px 0px 0px; }
-
+*/
 .txt {
   width: 220px;
   font-family: $font-stack1;
@@ -399,10 +478,8 @@ body {
   color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-   font-family: $font-stack1;
-  letter-spacing: -.1rem;
-  font-weight: 700;
-  font-style: normal;
+  letter-spacing: 0rem;
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.2;
    }
@@ -417,7 +494,6 @@ body {
   font-family: $font-stack2;
   letter-spacing: -.08rem;
   font-weight: 700;
-  font-style: normal;
   font-size: 32px;
   line-height: 1.2;
  }
@@ -440,7 +516,7 @@ body {
   padding-bottom: 32px; }
 
 .blogtxt i {
-  font-style: italic; }
+  font-family: italic; }
 
 .blogtxt p {
   -webkit-font-smoothing: antialiased;
@@ -497,7 +573,7 @@ body {
 /* Uses https://github.com/IanLunn/Hover */
 .hvr-grow-shadow {
 
-  background-color: $color-active-d;
+  background-color: $color-footer-accent-d;
   display: inline;
   border: none;
   margin: 4px;
@@ -528,7 +604,7 @@ body {
 
 .hvr-grow-shadow:hover,
 .hvr-grow-shadow:active {
-  box-shadow: 0px 3px 34px -4px rgba(60, 46, 252, 0.5);
+  box-shadow: 0px 3px 34px -4px rgba(255, 255, 255, 0.5);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   outline: none; }
@@ -536,7 +612,7 @@ body {
 .heart {
   display: inline;
   font-size: 14px;
-  color: $color-active-d; }
+  color: $color-footer-accent-d; }
 
 .cont {
   display: inline;
@@ -560,10 +636,9 @@ body {
   color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Poppins';
+  font-family: $font-stack2;
   letter-spacing: .01rem;
   font-weight: 600;
-  font-style: normal;
   font-size: 20px;
   line-height: 1.58;
   letter-spacing: -.003em; }
@@ -596,7 +671,7 @@ hr {
   body{
   background-image: url("../../assets/img/backgyan.jpg");
   background-position: bottom;
-  background-color: #fafafa;
+  background-color: #F2F2F6;
   background-repeat:no-repeat;
   background-size: 100vw auto;
   margin: 0px;
@@ -679,20 +754,23 @@ hr {
     -webkit-transition-duration: 0.25s;
     transition-duration: 0.25s;
     }
+
   .card{
 width: 90vw;
 margin: auto;
-margin-top: 16px;
+margin-top: 5vw;
   }
-
+/*
 .card img{
   width: 90vw;
-}
+} */
 .navcont{
-width: 90vw;
+  font-size: 14px;
+  width: 90vw;
 }
 
 .lbox-a{
+  margin: auto;
   background: $color-active-m;
   border-color: $color-active-m;
 }
@@ -745,10 +823,9 @@ width: 90vw;
 .rbox-i a{
   color: $color-active-m;
 }
-.hvr-grow-shadow {
-color: $color-active-m;
+.readmore{
+  background-size: 90vw 60px;
 }
-
 }
 
 /*iPhone 5 size*/

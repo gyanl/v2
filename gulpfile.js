@@ -21,4 +21,14 @@ gulp.task('sass', function() {
         .pipe(browserSync.stream());
 });
 
+gulp.task('pages', function() {
+  gulp.src([
+    path.join(paths.pages, '**/*.html')
+  ])
+  .pipe(swig(options))
+  .pipe(gulp.dest('./_build/'))
+  .pipe(reload({stream:true}));
+});
+
+
 gulp.task('default', ['serve']);

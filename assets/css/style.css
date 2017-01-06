@@ -4,31 +4,46 @@
   background-color: #5929B3; }
 
 .pmo .readmore {
-  background-image: url(../../assets/img/grad/pmo.png); }
+  background-image: url(../../assets/img/grad/pmo.png);
+  -webkit-box-shadow: 0px 10px 40px -20px #5929B3;
+  -moz-box-shadow: 0px 10px 40px -20px #5929B3;
+  box-shadow: 0px 10px 35px -14px #5929B3; }
 
 .ioteractions .projecttag {
   background-color: #FF273E; }
 
 .ioteractions .readmore {
-  background-image: url(../../assets/img/grad/ioteractions.png); }
+  background-image: url(../../assets/img/grad/ioteractions.png);
+  -webkit-box-shadow: 0px 10px 40px -20px #FF273E;
+  -moz-box-shadow: 0px 10px 40px -20px #FF273E;
+  box-shadow: 0px 10px 35px -14px #FF273E; }
 
 .hackindia .projecttag {
   background-color: #74C600; }
 
 .hackindia .readmore {
-  background-image: url(../../assets/img/grad/hackindia.png); }
+  background-image: url(../../assets/img/grad/hackindia.png);
+  -webkit-box-shadow: 0px 10px 40px -20px #74C600;
+  -moz-box-shadow: 0px 10px 40px -20px #74C600;
+  box-shadow: 0px 10px 35px -14px #74C600; }
 
 .mova1 .projecttag {
   background-color: #29292C; }
 
 .mova1 .readmore {
-  background-image: url(../../assets/img/grad/mova1.png); }
+  background-image: url(../../assets/img/grad/mova1.png);
+  -webkit-box-shadow: 0px 10px 40px -20px #29292C;
+  -moz-box-shadow: 0px 10px 40px -20px #29292C;
+  box-shadow: 0px 10px 35px -14px #29292C; }
 
 .jobsplane .projecttag {
   background-color: #F23515; }
 
 .jobsplane .readmore {
-  background-image: url(../../assets/img/grad/jobsplane.png); }
+  background-image: url(../../assets/img/grad/jobsplane.png);
+  -webkit-box-shadow: 0px 10px 40px -20px #F23515;
+  -moz-box-shadow: 0px 10px 40px -20px #F23515;
+  box-shadow: 0px 10px 35px -14px #F23515; }
 
 .projectname {
   padding-top: 16px;

@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Mono:400,700);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,800);
 .pmo .projecttag {
@@ -81,18 +82,24 @@
 
 .readmore {
   z-index: 10;
+  bottom: 0;
+  position: fixed;
+  width: 335px;
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
   padding-bottom: 20px;
   text-align: right;
-  padding-right: 28px;
   padding-top: 36px;
+  padding-right: 25px;
   font-family: "Roboto", "Helvetica", sans-serif;
   font-size: 14px;
   color: #FFFFFF;
   letter-spacing: 0;
   border-radius: 0px 0px 16px 16px; }
+
+.arrow {
+  padding-right: 20px; }
 
 input:focus,
 textarea:focus,
@@ -405,6 +412,7 @@ body {
   font-weight: 800; }
 
 .card {
+  vertical-align: top;
   -webkit-box-shadow: 0px 10px 43px -14px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 10px 43px -14px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 10px 43px -14px rgba(0, 0, 0, 0.25);
@@ -415,9 +423,8 @@ body {
   margin-bottom: 0px;
   margin-left: 8px;
   margin-right: 8px;
-  height: auto;
+  height: 340px;
   display: inline-block;
-  position: relative;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: box-shadow, transform;
@@ -710,6 +717,7 @@ hr {
     transition-duration: 0.25s; }
   .card {
     width: 90vw;
+    height: auto;
     margin: auto;
     margin-top: 5vw; }
   /*
@@ -751,7 +759,9 @@ hr {
   .rbox-i a {
     color: #000; }
   .readmore {
-    background-size: 90vw 60px; } }
+    background-size: 90vw 60px;
+    position: relative;
+    width: auto; } }
 
 /*iPhone 5 size*/
 @media only screen and (max-width: 320px) {

@@ -1,6 +1,33 @@
 @import url(https://fonts.googleapis.com/css?family=Space+Mono:400,700);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,800);
+.richie .projecttag {
+  background-color: #5A696D; }
+
+.richie .readmore {
+  background-image: url(../../assets/img/grad/richie.png);
+  -webkit-box-shadow: 0px 15px 45px -25px #5A696D;
+  -moz-box-shadow: 0px 15px 45px -25px #5A696D;
+  box-shadow: 0px 15px 45px -25px #5A696D; }
+
+.socialchess .projecttag {
+  background-color: #333333; }
+
+.socialchess .readmore {
+  background-image: url(../../assets/img/grad/socialchess.png);
+  -webkit-box-shadow: 0px 15px 45px -25px #333333;
+  -moz-box-shadow: 0px 15px 45px -25px #333333;
+  box-shadow: 0px 15px 45px -25px #333333; }
+
+.teamsanskrit .projecttag {
+  background-color: #2E5DF8; }
+
+.teamsanskrit .readmore {
+  background-image: url(../../assets/img/grad/teamsanskrit.png);
+  -webkit-box-shadow: 0px 15px 45px -25px #2E5DF8;
+  -moz-box-shadow: 0px 15px 45px -25px #2E5DF8;
+  box-shadow: 0px 15px 45px -25px #2E5DF8; }
+
 .zomato .projecttag {
   background-color: #CB202D; }
 

@@ -156,7 +156,8 @@
   letter-spacing: 0; }
 
 .tags {
-  padding: 22px 10px 0px 10px;
+  padding: 8px 10px 0px 10px;
+  line-height: 40px;
   margin: auto;
   display: inline-block; }
 
@@ -660,6 +661,7 @@ body {
   display: inline;
   border: none;
   margin: 4px;
+  padding: 8px;
   border-radius: 32px;
   color: #fff;
   width: 36px;
@@ -815,9 +817,8 @@ hr {
     -webkit-transition-duration: 0.25s;
     transition-duration: 0.25s; }
   .card {
+    width: 90vw;
     margin: auto;
-    margin-left: 5vw;
-    margin-right: 5vw;
     margin-top: 6vw;
     height: auto; }
   /*

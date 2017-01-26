@@ -124,8 +124,7 @@
 
 .transparent {
   opacity: 0;
-  z-index: 0;
-  pointer-events: none; }
+  z-index: 0; }
 
 /*https://codepen.io/dodozhang21/pen/siKtp*/
 .arrowbob {
@@ -225,6 +224,7 @@
   letter-spacing: 0; }
 
 .tagcont {
+  display: block;
   padding-bottom: 0px;
   width: 720px;
   margin: auto; }

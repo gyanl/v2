@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Space+Mono:400,700);
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,500);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,800);
 .richie .projecttag {
@@ -118,11 +118,74 @@
   -moz-box-shadow: 0px 15px 45px -25px #F23515;
   box-shadow: 0px 15px 45px -25px #F23515; }
 
+.onepage {
+  height: 90vh;
+  background: #F2F2F6; }
+
+/*https://codepen.io/dodozhang21/pen/siKtp*/
+.arrowbob {
+  position: relative;
+  -webkit-box-shadow: 0px 10px 43px -14px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 10px 43px -14px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 10px 43px -14px black;
+  margin: auto;
+  margin-top: 80px;
+  bottom: 40px;
+  width: 24px;
+  height: 24px;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0yOTMuNzUxLDQ1NS44NjhjLTIwLjE4MSwyMC4xNzktNTMuMTY1LDE5LjkxMy03My42NzMtMC41OTVsMCwwYy0yMC41MDgtMjAuNTA4LTIwLjc3My01My40OTMtMC41OTQtNzMuNjcyICBsMTg5Ljk5OS0xOTBjMjAuMTc4LTIwLjE3OCw1My4xNjQtMTkuOTEzLDczLjY3MiwwLjU5NWwwLDBjMjAuNTA4LDIwLjUwOSwyMC43NzIsNTMuNDkyLDAuNTk1LDczLjY3MUwyOTMuNzUxLDQ1NS44Njh6Ii8+DQo8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNMjIwLjI0OSw0NTUuODY4YzIwLjE4LDIwLjE3OSw1My4xNjQsMTkuOTEzLDczLjY3Mi0wLjU5NWwwLDBjMjAuNTA5LTIwLjUwOCwyMC43NzQtNTMuNDkzLDAuNTk2LTczLjY3MiAgbC0xOTAtMTkwYy0yMC4xNzgtMjAuMTc4LTUzLjE2NC0xOS45MTMtNzMuNjcxLDAuNTk1bDAsMGMtMjAuNTA4LDIwLjUwOS0yMC43NzIsNTMuNDkyLTAuNTk1LDczLjY3MUwyMjAuMjQ5LDQ1NS44Njh6Ii8+DQo8L3N2Zz4=);
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite; }
+
 .invbtn {
   margin: auto;
   width: 200px;
   text-align: center;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
   text-transform: uppercase;
   font-size: 12px;
   border-radius: 32px;
@@ -142,24 +205,55 @@
 .cardsectionlabel {
   padding: 12px;
   padding-top: 30px;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
   font-weight: 800;
   font-size: 28px;
   color: #333333; }
 
 .projectname {
-  padding-top: 16px;
-  font-family: "Playfair Display";
+  padding-top: 20px;
+  font-family: "Rubik", "Georgia", serif;
   font-weight: 400;
-  font-size: 36px;
-  color: #000000;
+  font-size: 32px;
+  color: #000;
   letter-spacing: 0; }
+
+.tagcont {
+  width: 720px;
+  margin: auto;
+  margin-top: 6px; }
 
 .tags {
   padding: 8px 10px 0px 10px;
   line-height: 40px;
   margin: auto;
   display: inline-block; }
+
+.alltag, .alltag-sel {
+  margin-top: px;
+  font-family: "Rubik", "Georgia", serif;
+  font-weight: 400;
+  margin-left: 2px;
+  margin-right: 2px;
+  display: inline;
+  font-size: 13px;
+  line-height: 46px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #333;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
+  width: auto;
+  color: #333; }
+
+.alltag a, .alltag-sel a {
+  color: #333; }
+
+.alltag-sel {
+  background: #333;
+  color: #fff; }
+
+.alltag-sel a {
+  color: #fff; }
 
 .projecttag {
   margin-left: 4px;
@@ -169,9 +263,20 @@
   line-height: 13px;
   padding: 8px 14px 6px 14px;
   border-radius: 16px;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
   color: #fff;
   width: auto; }
+
+.smiley {
+  background-position: center;
+  height: 120px;
+  background-image: url("../../assets/img/smiley.png");
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  width: 736px;
+  margin: auto;
+  padding-top: 80px;
+  margin-bottom: -50px; }
 
 .projectdesc {
   text-align: left;
@@ -195,7 +300,7 @@
   text-align: right;
   padding-top: 36px;
   padding-right: 25px;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
   font-size: 14px;
   color: #FFFFFF;
   letter-spacing: 0;
@@ -219,15 +324,16 @@ a {
   height: 160px; }
 
 .navcont {
+  width: 700px;
+  font-size: 12px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 32px;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  line-height: 48px;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
   padding-top: 0px;
   padding-bottom: 6px;
-  width: 450px;
   margin: auto;
-  display: flex; }
+  display: inline-block; }
 
 .lbox-a {
   line-height: 32px;
@@ -253,7 +359,7 @@ a {
   width: 32vw;
   background: #333333;
   border-radius: 0px;
-  border-width: 1px 0px 1px 0px;
+  border-width: 1px 1px 1px 0px;
   border-style: solid;
   border-color: #333333;
   color: #333333; }
@@ -304,7 +410,7 @@ a {
   width: 32vw;
   background: #FFF;
   border-radius: 0px;
-  border-width: 1px 0px 1px 0px;
+  border-width: 1px 1px 1px 0px;
   border-style: solid;
   border-color: #333333;
   color: #333333; }
@@ -316,7 +422,8 @@ a {
   width: 32vw;
   background: #fff;
   border-radius: 0px 5px 5px 0px;
-  border: 1px solid;
+  border-width: 1px 1px 1px 0px;
+  border-style: solid;
   border-color: #333333;
   color: #333333; }
 
@@ -388,7 +495,7 @@ a {
 .dtext {
   position: relative;
   color: #fff;
-  font-family: "Playfair Display", "Georgia", serif;
+  font-family: "Rubik", "Georgia", serif;
   font-weight: 600;
   font-size: 18px;
   padding-top: 0px;
@@ -411,7 +518,7 @@ a {
 .zero {
   padding-top: 4px;
   padding-bottom: 16px;
-  font-family: "Playfair Display", "Georgia", serif;
+  font-family: "Rubik", "Georgia", serif;
   font-weight: 500;
   font-size: 32px;
   color: #333333;
@@ -421,15 +528,15 @@ a {
   transition-property: font-size; }
 
 .subzero {
-  font-family: "Playfair Display", "Georgia", serif;
+  font-family: "Rubik", "Georgia", serif;
   font-weight: 600;
   font-size: 16px;
   color: #FF6E0F; }
 
 body {
-  background-image: url("/assets/img/desktop-footer.png");
+  background-image: url("../../assets/img/desktop-footer.png");
   background-position: bottom;
-  background-color: #fafafa;
+  background-color: #F2F2F6;
   background-repeat: no-repeat;
   background-size: 100vw auto;
   margin: 0px; }
@@ -444,8 +551,9 @@ body {
   right: 0px;
   padding: 15px;
   padding-bottom: 2px;
+  line-height: 24px;
   margin: auto;
-  margin-top: -10px;
+  margin-top: 0px;
   width: auto;
   font-weight: 800;
   font-size: 18px;
@@ -466,20 +574,19 @@ body {
   padding: 15px;
   margin: auto;
   width: auto;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   color: #333; }
 
 .header-fixed p {
   color: #fff;
-  font-family: "Roboto", "Helvetica", sans-serif;
-  font-weight: 900;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
+  font-weight: 400;
   width: 710px;
   margin: auto; }
 
 .header-fixed a {
   color: #fff;
-  color: transparent;
   text-shadow: 0 0 0 #000, .05em .05em 0 #000, 0 0, -.05em .05em 0 #000;
   /*  gradient background allows us to use css only & re-position it  */
   background: -webkit-linear-gradient(#eee, #fff) center 1.1em no-repeat;
@@ -490,8 +597,7 @@ body {
   -webkit-transition-property: background-size;
   transition-property: background-size;
   -webkit-transition: .2s ease;
-  transition: .2s ease;
-  color: #fff; }
+  transition: .2s ease; }
 
 .header-fixed a:hover {
   /*  backgrounds won't size larger than 100%  */
@@ -500,7 +606,7 @@ body {
 .blogcontainer {
   width: 800px;
   border-radius: 10px;
-  font-family: "Playfair Display", "Georgia", serif;
+  font-family: "Rubik", "Georgia", serif;
   background: #fff;
   margin: auto; }
 
@@ -513,11 +619,12 @@ body {
 .Gyan {
   margin-left: 132px;
   margin-top: 36px;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
   font-size: 40px;
   font-weight: 800; }
 
 .card {
+  border: 1px solid #eee;
   vertical-align: top;
   -webkit-box-shadow: 0px 10px 43px -14px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 10px 43px -14px rgba(0, 0, 0, 0.25);
@@ -556,7 +663,7 @@ body {
 */
 .txt {
   width: 220px;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
   font-weight: 300;
   font-size: 18px;
   position: relative;
@@ -566,14 +673,14 @@ body {
   color: rgba(0, 0, 0, 0.75); }
 
 .blogtitle {
-  font-family: "Playfair Display", "Georgia", serif;
+  font-family: "Rubik", "Georgia", serif;
   padding-top: 120px;
   margin: auto;
   width: 710px;
   color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  letter-spacing: 0rem;
+  letter-spacing: -.092rem;
   font-weight: 500;
   font-size: 36px;
   line-height: 1.2; }
@@ -585,7 +692,7 @@ body {
   color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
   letter-spacing: -.08rem;
   font-weight: 500;
   font-size: 32px;
@@ -598,7 +705,7 @@ body {
   color: rgba(0, 0, 0, 0.44);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
   letter-spacing: .01rem;
   font-weight: 300;
   font-size: 14px;
@@ -626,7 +733,7 @@ body {
 .blogtxt .imgdesc {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
   letter-spacing: -0.01em;
   font-weight: 400;
   text-align: center;
@@ -642,7 +749,7 @@ body {
 
 .footer {
   background-image: linear-gradient(-180deg, transparent 0%, rgba(0, 0, 0, 0.25) 100%);
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
   font-weight: 300;
   width: auto;
   color: #fff;
@@ -673,7 +780,7 @@ body {
   text-align: center;
   text-decoration: none;
   font-size: 20px;
-  font-family: "Roboto", "Helvetica", sans-serif;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
   font-weight: 900;
   display: inline-block;
   vertical-align: middle;
@@ -725,9 +832,9 @@ body {
   color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Playfair Display", "Georgia", serif;
+  font-family: "Rubik", "Georgia", serif;
   letter-spacing: .01rem;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.58;
   letter-spacing: -.003em; }
@@ -742,7 +849,6 @@ hr {
   body {
     background-image: url("../../assets/img/backgyan.jpg");
     background-position: bottom;
-    background-color: #F2F2F6;
     background-repeat: no-repeat;
     background-size: 100vw auto;
     margin: 0px; }
@@ -829,9 +935,6 @@ hr {
 .card img{
   width: 90vw;
 } */
-  .navcont {
-    font-size: 14px;
-    width: 90vw; }
   .lbox-a {
     margin: auto;
     background: #000;
@@ -866,7 +969,17 @@ hr {
   .readmore {
     background-size: 90vw 60px;
     position: relative;
-    width: auto; } }
+    width: auto; }
+  .smiley {
+    background-size: 100px 100px;
+    background-position: center;
+    height: 80px;
+    width: 90vw;
+    margin-top: 40px;
+    margin-bottom: -30px; }
+  .tagcont {
+    margin-top: -20px;
+    width: 90vw; } }
 
 /*iPhone 5 size*/
 @media only screen and (max-width: 320px) {

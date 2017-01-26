@@ -119,7 +119,7 @@
   box-shadow: 0px 15px 45px -25px #F23515; }
 
 .onepage {
-  height: 90vh;
+  height: 600px;
   background: #F2F2F6; }
 
 /*https://codepen.io/dodozhang21/pen/siKtp*/
@@ -428,8 +428,7 @@ a {
   color: #333333; }
 
 .cardcont {
-  max-width: 1800px;
-  min-height: 80vh; }
+  max-width: 1800px; }
 
 .butt {
   color: #000;

@@ -123,10 +123,13 @@
   background: #F2F2F6; }
 
 .transparent {
-  opacity: 0; }
+  opacity: 0;
+  z-index: 0;
+  pointer-events: none; }
 
 /*https://codepen.io/dodozhang21/pen/siKtp*/
 .arrowbob {
+  z-index: 0;
   position: relative;
   -webkit-box-shadow: 0px 10px 43px -14px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 10px 43px -14px rgba(0, 0, 0, 0.25);
@@ -214,7 +217,7 @@
   color: #333333; }
 
 .projectname {
-  padding-top: 20px;
+  padding-top: 24px;
   font-family: "Rubik", "Georgia", serif;
   font-weight: 400;
   font-size: 32px;
@@ -222,12 +225,12 @@
   letter-spacing: 0; }
 
 .tagcont {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   width: 720px;
   margin: auto; }
 
 .tags {
-  padding: 8px 10px 0px 10px;
+  padding: 12px 10px 0px 10px;
   line-height: 40px;
   margin: auto;
   display: inline-block; }
@@ -284,7 +287,7 @@
 .projectdesc {
   text-align: left;
   vertical-align: middle;
-  padding: 20px 30px 0px 30px;
+  padding: 12px 30px 0px 30px;
   opacity: 0.8;
   font-family: Georgia;
   font-size: 16px;
@@ -431,6 +434,7 @@ a {
   color: #333333; }
 
 .cardcont {
+  z-index: 5;
   max-width: 1800px; }
 
 .butt {

@@ -119,8 +119,7 @@
   box-shadow: 0px 15px 45px -25px #F23515; }
 
 .onepage {
-  min-height: 600px;
-  background: #F2F2F6; }
+  min-height: 600px; }
 
 .transparent {
   opacity: 0;
@@ -235,8 +234,7 @@
   margin: auto;
   display: inline-block; }
 
-.alltag, .alltag-sel {
-  margin-top: px;
+.alltag {
   font-family: "Rubik", "Georgia", serif;
   font-weight: 400;
   margin-left: 2px;
@@ -246,15 +244,37 @@
   line-height: 46px;
   padding: 10px 20px 10px 20px;
   border-radius: 20px;
-  border: 1px solid #333;
   font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
   width: auto;
-  color: #333; }
+  color: #333;
+  background: #fff;
+  -webkit-transition: border .25s;
+  /* Safari */
+  transition: border .25s;
+  border: 1px solid rgba(0, 0, 0, 0.2); }
 
-.alltag a, .alltag-sel a {
+.alltag:hover {
+  margin-left: 1px;
+  margin-right: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  padding: 11px 21px 11px 21px; }
+
+.alltag a {
   color: #333; }
 
 .alltag-sel {
+  font-family: "Rubik", "Georgia", serif;
+  font-weight: 400;
+  margin-left: 2px;
+  margin-right: 2px;
+  display: inline;
+  font-size: 13px;
+  line-height: 46px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  font-family: "Rubik", "Roboto", "Helvetica", sans-serif;
+  width: auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   background: #333;
   color: #fff; }
 
@@ -542,7 +562,7 @@ a {
 body {
   background-image: url("../../assets/img/desktop-footer.png");
   background-position: bottom;
-  background-color: #F2F2F6;
+  background-color: #f2f2f2;
   background-repeat: no-repeat;
   background-size: 100vw auto;
   margin: 0px; }
@@ -853,6 +873,7 @@ hr {
 @media only screen and (max-width: 768px) {
   body {
     background-image: url("../../assets/img/backgyan.jpg");
+    background-color: #F2F1F6;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: 100vw auto;

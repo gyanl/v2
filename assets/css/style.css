@@ -219,9 +219,9 @@
   letter-spacing: 0; }
 
 .tagcont {
+  padding-top: 10px;
   width: 720px;
-  margin: auto;
-  margin-top: 6px; }
+  margin: auto; }
 
 .tags {
   padding: 8px 10px 0px 10px;
@@ -977,7 +977,7 @@ hr {
     margin-top: 40px;
     margin-bottom: -30px; }
   .tagcont {
-    margin-top: -20px;
+    margin-top: -30px;
     width: 90vw; } }
 
 /*iPhone 5 size*/

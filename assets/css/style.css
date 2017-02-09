@@ -1,6 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:400,500);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,800);
+.lettuceparty .projecttag {
+  background-color: #439823; }
+
+.lettuceparty .readmore {
+  background-image: url(../../assets/img/grad/lettuceparty.png);
+  -webkit-box-shadow: 0px 15px 45px -25px #439823;
+  -moz-box-shadow: 0px 15px 45px -25px #439823;
+  box-shadow: 0px 15px 45px -25px #439823; }
+
 .richie .projecttag {
   background-color: #5A696D; }
 

@@ -34,7 +34,6 @@ body {
   padding-bottom: 12px;
   font-size: 18px;
   background-image: linear-gradient(-180deg, #5B86FF 0%, #5674FF 100%);
-  box-shadow: 0 25px 20px -20px #5b86ff;
   transition-duration: .2s;
   transition-property: box-shadow; }
 

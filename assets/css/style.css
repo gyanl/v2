@@ -4,16 +4,15 @@ body {
   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   background-image: linear-gradient(#ffffff, #eeeeee);
   background-repeat: no-repeat;
-  background-size: 100vw 100vh; }
+  background-size: cover; }
 
 .leftblock {
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
   padding: 24px;
   width: 300px;
-  height: 100%;
-  background-image: #fff;
   border-right: 1px solid #ddd; }
 
 .fourofourblock {
@@ -71,13 +70,12 @@ a {
 
 .card:hover {
   transform: scale3d(0.98, 0.98, 1);
-  border: 1px solid #ddd;
-  border-radius: 14px; }
+  border: 1px solid #ddd; }
 
 .card img {
   width: 280px;
   height: 180px;
-  border-radius: 14px 14px 0px 0px; }
+  border-radius: 13px 13px 0px 0px; }
 
 .card p {
   font-size: 14px;
@@ -108,6 +106,22 @@ a {
 .chess {
   background: #cfc1f1;
   color: #5742ad; }
+
+.bic {
+  background: #00B2FF;
+  color: #ffffff; }
+
+.faux {
+  background: #FEF7F3;
+  background-image: url("../img/faux-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #333333; }
+
+.instagram {
+  background: #333333;
+  color: #FFCC53; }
 
 .mediumlink {
   font-size: 14px;
@@ -216,16 +230,20 @@ a {
     margin-left: auto; }
   .card {
     border-radius: 10px;
-    width: 90vw;
+    width: 95vw;
+    margin-right: 12px;
+    margin-left: 12px;
     height: auto;
-    margin-bottom: 16px;
+    margin-bottom: 3vw;
+    margin-top: 0;
     box-shadow: 0 1px 10px 2px rgba(0, 0, 0, 0.05); }
   .card img {
     border-radius: 010px 10px 0px 0pxpx;
-    width: 90vw;
+    width: 95vw;
     height: auto; }
   .card p {
-    width: 78vw;
+    margin-left: 20px;
+    margin-right: 20px;
     font-size: 16px;
     line-height: 26px; }
   .prefooter {

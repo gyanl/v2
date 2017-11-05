@@ -96,8 +96,12 @@ a {
   color: #006837; }
 
 .banking {
-  background: #c4c4c4;
-  color: #333; }
+  color: #333;
+  background: #FFFFFF;
+  background-image: url("../img/banking-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 .hackindia {
   background: #d5d6d8;
